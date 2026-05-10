@@ -85,8 +85,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "A developer portal showcasing Bloom's API templates for building integrations." },
       { property: "og:description", content: "A developer portal showcasing Bloom's API templates for building integrations." },
       { name: "twitter:description", content: "A developer portal showcasing Bloom's API templates for building integrations." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/141a7df5-ebec-42a2-919f-42648448a035/id-preview-dfe18377--6617a4a3-106d-4d76-8bf7-2650b0a12a19.lovable.app-1778387328931.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/141a7df5-ebec-42a2-919f-42648448a035/id-preview-dfe18377--6617a4a3-106d-4d76-8bf7-2650b0a12a19.lovable.app-1778387328931.png" },
+      {
+        property: "og:image",
+        content:
+          "https://www.trybloom.ai/opengraph-image.png?opengraph-image.0c5mjtk3eu1jy.png",
+      },
+      {
+        name: "twitter:image",
+        content:
+          "https://www.trybloom.ai/opengraph-image.png?opengraph-image.0c5mjtk3eu1jy.png",
+      },
       { property: "og:type", content: "website" },
     ],
     links: [
